@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from 'react';
 import { publicClient } from '../../../client'; // Thay thế với đường dẫn của bạn
 import { contract } from '../LendingPoolAbi'; // Thay đổi thành ABI phù hợp

@@ -4,13 +4,13 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { type ReactNode, useState } from "react";
 import { type State, WagmiProvider } from "wagmi";
 
-import Nav from "./Navigation/Nav";
-import Home from "./Navigation/Home";
-import PriceOracle from "./PriceOracle/PriceOracle";
-import CollateralManager from './CollateralManager/CollateralManager';
-import LendingPool from './LendingPool/LendingPool';
-import Borrower from './Borrower/Borrower';
-import InterestRate from './InterestRate/InterestRate';
+import Nav from "./Navigation/page";
+import Home from "./Home/page";
+import PriceOracle from "./PriceOracle/page";
+import CollateralManager from './CollateralManager/page';
+import LendingPool from './LendingPool/page';
+import Borrower from './Borrower/page';
+import InterestRate from './InterestRate/page';
 
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 

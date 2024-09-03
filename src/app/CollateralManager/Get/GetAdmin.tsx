@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useEffect, useState } from 'react';
 import { publicClient, walletClient } from '../../../client'; 
 import { contract } from '../CollateralManagerAbi'; 
