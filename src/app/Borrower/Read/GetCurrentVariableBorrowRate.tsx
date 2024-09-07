@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { publicClient } from '../../../client'; 
-import { contract } from '../BorrowerAbi'; 
+import { contract } from '../BorrowerAbi'; // Thay thế 'YourContractAbi' bằng tên tệp ABI của bạn
 import { Address } from 'viem';
 import '../../CollateralManager/Function.css'; 
 

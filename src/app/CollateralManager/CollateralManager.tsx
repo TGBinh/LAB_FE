@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import SetAllowedToken from './Set/SetAllowedToken';
 import SetContractAddress from './Set/SetContractAddress';

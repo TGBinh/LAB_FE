@@ -1,4 +1,5 @@
 // src/components/MainContainer.tsx
+'use client';
 
 import React from 'react';
 import GetAdmin from './GetAdmin';
