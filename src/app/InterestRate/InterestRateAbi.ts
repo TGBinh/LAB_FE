@@ -326,5 +326,5 @@ export const contract = {
       type: "function",
     },
   ],
-  address: "0xe04A860b119Bda6deeA80452B3E6835F32F45D9E",
+  address: "0x123d2e1d8Fd2cE4EEa3824852c07F6189991E788",
 };

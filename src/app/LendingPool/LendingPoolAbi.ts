@@ -370,5 +370,5 @@ export const contract = {
     },
     { stateMutability: "payable", type: "receive" },
   ],
-  address: "0x64aAFDcC9463A2b6EfE0F52482179F62fEb77681",
+  address: "0x93EcFFF7D3F2c3fC3931cA6451159e20b067a81F",
 };

@@ -53,7 +53,7 @@ const GetAllContracts = () => {
             <div className="contract-info">
                 <h6>Price Oracle: {priceOracle ? priceOracle : 'N/A'}</h6>
                 <h6>Collateral Manager: {collateralManager ? collateralManager : 'N/A'}</h6>
-                <h6>Borrower: {lendingPool ? lendingPool : 'N/A'}</h6>
+                <h6>Lending Pool: {lendingPool ? lendingPool : 'N/A'}</h6>
                 <h6>Interest Rate: {interestRate ? interestRate : 'N/A'}</h6>
             </div>
         </div>

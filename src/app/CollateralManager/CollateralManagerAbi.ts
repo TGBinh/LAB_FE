@@ -249,6 +249,16 @@ export const contract = {
       type: "function",
     },
     {
+      inputs: [
+        { internalType: "address", name: "user", type: "address" },
+        { internalType: "address[]", name: "collaterals", type: "address[]" },
+      ],
+      name: "isCollateralLocked",
+      outputs: [{ internalType: "bool", name: "", type: "bool" }],
+      stateMutability: "view",
+      type: "function",
+    },
+    {
       inputs: [{ internalType: "address", name: "", type: "address" }],
       name: "isTokenAllowed",
       outputs: [{ internalType: "bool", name: "", type: "bool" }],
@@ -388,5 +398,5 @@ export const contract = {
       type: "function",
     },
   ],
-  address: "0x58D214B77aAF8cB3A8406ea420598491Ba10C83c",
+  address: "0x39dcFc3f0E784C17897364f9463DD67d8422841b",
 };
